@@ -1,11 +1,14 @@
 /* eslint-disable */
 import React from 'react';
-import PropTypes from 'prop-types';
+import PropTypes, { string } from 'prop-types';
 
-const Display = () => <div>ok</div>;
+const Display = (props) => <div>{props.result}</div>;
 
-// Display.propTypes = {
-
-// };
+Display.defaultProps = {
+  result: 0,
+};
+Display.PropTypes = {
+  result: string,
+}
 
 export default Display;

@@ -8,6 +8,7 @@ import ButtonPanel from './ButtonPanel'
 const App = () => (
   <div>
     <Display />
+    <ButtonPanel />
   </div>
 );
 
