@@ -1,3 +1,7 @@
 body {
   overflow-x: hidden;
 }
+
+.button1 {
+  width: 60px;
+}

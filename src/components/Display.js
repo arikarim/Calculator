@@ -7,7 +7,7 @@ const Display = (props) => <div>{props.result}</div>;
 Display.defaultProps = {
   result: 0,
 };
-Display.PropTypes = {
+Display.propTypes = {
   result: string,
 }
 
