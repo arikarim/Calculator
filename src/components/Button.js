@@ -1,17 +1,14 @@
-/* eslint-disable */
-import React from 'react'
-import PropTypes, { string } from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const Button = props => {
-  return (
-    <div>
-      <button className='py-2 px-3 button1'>{props.name}</button>
-    </div>
-  )
-}
+const Button = ({ name }) => (
+  <div>
+    <button type="button" className="py-2 px-3 button1">{name}</button>
+  </div>
+);
 
 Button.propTypes = {
-  name: string,
-}
+  name: PropTypes.string.isRequired,
+};
 
-export default Button
+export default Button;
