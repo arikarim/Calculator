@@ -32,6 +32,7 @@ const ButtonPanel = () => (
       <Button name={0} />
       <Button name="." />
       <Button name="=" />
+      <Button name="GO" />
     </div>
   </div>
 );
