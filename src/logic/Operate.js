@@ -1,4 +1,3 @@
-
 import Big from 'big.js';
 
 let result = Infinity;
@@ -28,3 +27,5 @@ const Operate = (numberOne = null, numberTwo = null, operation) => {
   }
   return result.toString();
 };
+
+export default Operate;
