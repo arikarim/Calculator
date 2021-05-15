@@ -4,13 +4,18 @@ import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import Calculate from '../logic/Calculate';
 
-const App = () => (
-  <div className="col-2 mx-auto">
-    <Display />
-    <ButtonPanel />
-  </div>
+const App = () => {
+  function handleClick() {
+    return Calculate;
+  }
 
-);
+  return (
+    <div className="col-2 mx-auto">
+      <Display />
+      <ButtonPanel onClick={handleClick} />
+    </div>
+  );
+};
 
 App.propTypes = {
 
