@@ -5,9 +5,7 @@ import ButtonPanel from './ButtonPanel';
 
 const App = () => (
   <div className="col-2 mx-auto">
-    <>
-      <Display />
-    </>
+    <Display />
     <ButtonPanel />
   </div>
 
