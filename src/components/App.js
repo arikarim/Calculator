@@ -6,9 +6,7 @@ import Calculate from '../logic/Calculate';
 
 const App = () => (
   <div className="col-2 mx-auto">
-    <>
-      <Display />
-    </>
+    <Display />
     <ButtonPanel />
   </div>
 
