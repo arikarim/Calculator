@@ -13,15 +13,25 @@ body {
 }
 
 .parent {
-  width: 320px;
+  width: 340px;
   padding-bottom: 10px;
 }
 
 .input {
-  height: 30px;
-  background-color: blanchedalmond;
+  border-top: 10px solid goldenrod;
+  border-left: 10px solid gold;
+  border-right: 10px solid gold;
+  height: 50px;
+  width: 340px;
+  background-color: rgb(107, 65, 24);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
+}
+
+.buttonP {
+  border-bottom: 10px solid goldenrod;
+  border-left: 10px solid goldenrod;
+  border-right: 10px solid goldenrod;
 }
 
 .cont {

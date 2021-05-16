@@ -44,10 +44,10 @@ class App extends Component {
     }
     return (
       <div className="col-2 mx-auto text-end parent">
-        <div className="py-1 input">
-          <Display className="" result={result} />
-        </div>
-        <ButtonPanel clickHandler={this.handleClick} />
+        {/* <div className="py-1 input"> */}
+        <Display className="input" result={result} />
+        {/* </div> */}
+        <ButtonPanel className="buttonP" clickHandler={this.handleClick} />
       </div>
     );
   }
