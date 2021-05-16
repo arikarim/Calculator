@@ -21,7 +21,7 @@ class App extends Component {
 
     const result = Calculate(data, buttonName);
 
-    setState({
+    this.setState({
       total: result.total,
       next: result.next,
       operation: result.operation,
@@ -45,7 +45,7 @@ class App extends Component {
     return (
       <div className="col-2 mx-auto">
         <Display result={result} />
-        <ButtonPanel clickHandler={handleClick} />
+        <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
   }
