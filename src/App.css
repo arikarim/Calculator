@@ -9,7 +9,19 @@ body {
 
 .container {
   margin-top: 10%;
-  color: aliceblue;
+  color: red;
+}
+
+.parent {
+  width: 320px;
+  padding-bottom: 10px;
+}
+
+.input {
+  height: 30px;
+  background-color: blanchedalmond;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .cont {

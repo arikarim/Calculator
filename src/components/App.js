@@ -43,8 +43,10 @@ class App extends Component {
       result = next === null ? operation : next;
     }
     return (
-      <div className="col-2 mx-auto">
-        <Display result={result} />
+      <div className="col-2 mx-auto text-end parent">
+        <div className="py-1 input">
+          <Display className="" result={result} />
+        </div>
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );
