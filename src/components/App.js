@@ -15,15 +15,37 @@ class App extends Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick() {
-    return Calculate;
+  handleClick(buttonName) {
+    const { total, next, operation } = this.state;
+    const data = { total, next, operation };
+
+    const result = Calculate(data, buttonName);
+
+    setState({
+      total: result.total,
+      next: result.next,
+      operation: result.operation,
+    });
   }
 
   render() {
+    const { total, next, operation } = this.state;
+    let result;
+    if (operation === null) {
+      result = total;
+    } else if (operation === '+/-') {
+      if (next === null || next === '0') {
+        result = total;
+      } else {
+        result = next;
+      }
+    } else {
+      result = next === null ? operation : next;
+    }
     return (
       <div className="col-2 mx-auto">
-        <Display />
-        <ButtonPanel onClick={handleClick} />
+        <Display result={result} />
+        <ButtonPanel clickHandler={handleClick} />
       </div>
     );
   }
