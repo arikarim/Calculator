@@ -28,11 +28,11 @@ const ButtonPanel = (props) => (
       <Button name={3} handleClick={() => props.clickHandler('3')} />
       <Button name="+" handleClick={() => props.clickHandler('+')} />
     </div>
-    <div className="d-flex">
+    <div className="d-flex author">
       <Button name="0" handleClick={() => props.clickHandler('0')} />
       <Button name="." handleClick={() => props.clickHandler('.')} />
       <Button name="=" handleClick={() => props.clickHandler('=')} />
-      <Button name="GO" handleClick={() => props.clickHandler('')} />
+      <Button name="Ari Karim" handleClick={() => props.clickHandler('')} />
     </div>
   </div>
 );

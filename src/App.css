@@ -47,3 +47,7 @@ body {
   margin-top: auto;
   margin-bottom: auto;
 }
+
+.author {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
