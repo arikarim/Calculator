@@ -1,25 +1,31 @@
 import '../App.css';
-import React from 'react';
+import React, { Component } from 'react'
 import Display from './Display';
 import ButtonPanel from './ButtonPanel';
 import Calculate from '../logic/Calculate';
 
-
-const App = () => {
-  function handleClick() {
-    return Calculate;
+class App extends Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    }
+    this.handleClick = this.handleClick.bind(this)
   }
 
-  return (
-    <div className="col-2 mx-auto">
-      <Display />
-      <ButtonPanel onClick={handleClick} />
+  // function handleClick() {
+  //   return Calculate;
+  // }
+  render() {
+    return (
+      <div className="col-2 mx-auto">
+        <Display />
+        <ButtonPanel onClick={handleClick} />
     </div>
-  );
-};
-
-App.propTypes = {
-
-};
+    )
+  }
+}
 
 export default App;
