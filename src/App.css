@@ -37,6 +37,11 @@ body {
   color: aliceblue;
 }
 
+.title {
+  color: goldenrod;
+  margin-bottom: 20px;
+}
+
 .buttonP {
   border-bottom: 10px solid goldenrod;
   border-left: 10px solid goldenrod;

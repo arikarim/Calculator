@@ -44,7 +44,7 @@ class App extends Component {
     }
     return (
       <div className="col-2 mx-auto text-end parent">
-        {/* <div className="py-1 input"> */}
+        <h4 className="text-start title">Lets do some math little magician.</h4>
         <Display className="input" result={result} />
         {/* </div> */}
         <ButtonPanel className="buttonP" clickHandler={this.handleClick} />
