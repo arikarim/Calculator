@@ -8,8 +8,8 @@ const Routes = () => (
   <BrowserRouter>
     <h1 className="my-5 text-light">Math Magicians</h1>
     <Switch>
-      <Route path="/" exact component={App} />
-      <Route path="/Home" component={Home} />
+      <Route path="/" exact component={Home} />
+      <Route path="/Calculator" component={App} />
       <Route path="/Quotes" component={Quotes} />
 
     </Switch>
