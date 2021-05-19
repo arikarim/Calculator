@@ -6,7 +6,7 @@ const Nav = () => (
     <h2 className="text-light">Math Magicians</h2>
     <ul>
       <Link exact className="link-danger fw-bolder text-decoration-none mx-4" to="/">Home</Link>
-      <Link exact className="link-danger fw-bolder text-decoration-none mx-4" to="/Calculator">About</Link>
+      <Link exact className="link-danger fw-bolder text-decoration-none mx-4" to="/Calculator">Calculator</Link>
       <Link exact className="link-danger fw-bolder text-decoration-none mx-4" to="/Quotes">Quotes</Link>
     </ul>
   </div>
