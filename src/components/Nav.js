@@ -1,15 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Nav = () => (
-  <Router>
-    <ul className="d-flex">
-      <Link to="/">Home</Link>
-      <Link to="/Calculator">About</Link>
-      <Link to="/Quotes">Quotes</Link>
-    </ul>
-  </Router>
-
+  <ul className="d-flex py-3">
+    <Link exact className="link-light text-decoration-none mx-4" to="/">Home</Link>
+    <Link exact className="link-light text-decoration-none mx-4" to="/Calculator">About</Link>
+    <Link exact className="link-light text-decoration-none mx-4" to="/Quotes">Quotes</Link>
+  </ul>
 );
 
 Nav.propTypes = {
