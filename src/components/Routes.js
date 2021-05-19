@@ -7,10 +7,9 @@ import Nav from './Nav';
 
 const Routes = () => (
   <BrowserRouter>
-    <div className="d-flex justify-content-end">
+    <div className="">
       <Nav />
     </div>
-    <h1 className="text-light">Math Magicians</h1>
     <Switch>
       <Route path="/" exact component={Home} />
       <Route path="/Calculator" component={App} />
