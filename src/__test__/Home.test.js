@@ -1,4 +1,5 @@
 import React from 'react';
+import '@testing-library/jest-dom/extend-expect';
 import { BrowserRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import NavBar from '../components/Nav';
