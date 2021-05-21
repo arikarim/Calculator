@@ -1,19 +1,25 @@
 # Calculator
 
-
+A magic calculator that helps little magicians like you do math magics.
 
 ## Screenshots of the app.
 
-![image]()
+![image](./src/img/screen.png)
 
 
 [Live Demo Link](https://callculattor.herokuapp.com/)
 
 ## Built With
 
+- React
+
+- Bootstrap
+ 
+- Css
 
 ## Prerequisities
 
+node should be installed in your machine.
 
 
 ## Getting Started
@@ -21,10 +27,15 @@
 **To get this project set up on your local machine, follow these simple steps:**
 
 **Step 1**<br>
+ - Clone the repo to your local machine.
 
+ - cd inside the project directory.
 
 **Step 2**<br>
 
+ - npm install
+
+ - run npm run start
 
 ## 🤝 contributing
 
@@ -41,4 +52,4 @@ give a ⭐️ if you like this project!
 
 
 
-This project is [MIT](
+This project is [MIT](lisenced)
