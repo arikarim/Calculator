@@ -7,6 +7,7 @@ A magic calculator that helps little magicians like you do math magics.
 ![image](./src/img/screen.png)
 
 
+
 [Live Demo Link](https://callculattor.herokuapp.com/)
 
 ## Built With
